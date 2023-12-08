@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Poppins:wght@300&family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Cormorant+Garamond:ital,wght@0,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+   
+}
+
+.logo{
+    font-size: 45px;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+.main {
+    background:url("Bc_IMG.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;   
+    color: rgb(247, 247, 247);
+    height: 50vh;
+    width: 100%;
+}
+.head{
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    background-color: rgb(55, 127, 160);
+    padding: 10px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: transparent; */
+    
+}
+
+
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+.navbar ul li a{
+    font-size: 17px;
+    padding: 18px;
+    text-decoration: none;
+    margin: 0px 12px;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+.navbar ul li a:hover{
+    background-color: rgb(85, 112, 134);
+}
+.navbar ul li ul{
+    position: absolute;
+    left: 0;
+    display: none;
+    width: 182px;
+    background-color: rgb(115, 179, 209);
+}
+.navbar ul li ul li{
+    width: 109%;
+}
+.navbar ul li ul li ul{
+    left: 140px;
+    top: 30px;
+}
+.navbar ul li:hover > ul{
+    display: inline;
+}
+.main h1{
+    width: 100%;
+    font-size: 70px;
+    padding: 12% 42%;
+}
+.hover b{
+    width: 100px;
+}
+
+.btn1{
+    margin-top: 80px;
+    margin-left: 17%;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    margin-left:12px ;
+}
+
+.ul li a{
+    color: aliceblue;
+    margin: 1px 50px;
+    padding: 22px 12px;
+    font-size:35px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(74, 143, 204);
+}
+.btn1 ul li a:hover{
+    color: rgb(67, 87, 150);
+    background-color: rgb(31, 203, 255);
+    border: 2px solid;
+}
+
+.openmenu{
+    display: none;
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+#closemenu{
+    display: none;
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media(max-width: 990px){
+    .openmenu{
+        display: initial;
+        float: right;
+    }
+    .head{
+        display: flow-root;
+    }
+    .heading{
+        padding: 65% 0%;
+    }
+    .navbar{
+        display: absolute;
+        top: 100%;
+        display: none;
+        transition: 0.6s;
+        left: 0;
+        right: 0;
+    }
+    .navbar ul li{
+        width: 100%;
+        text-align: center;
+    }
+    .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+    .navbar ul li ul li{
+        left: 0;
+    }
+    .navbar ul li ul li{
+        width: 100%;
+    }
+    .navbar ul li ul li ul li{
+        top: -28px;
+        left: -140px;    
+    }
+    #closemenu{
+        float: right;
+    }
+    .active {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .main h1{
+        margin-top: 62px;
+        padding: 38% 22%;
+    }
+    .btn1{
+        display: inline-block;
+    }
+    .btn1{
+        margin-left: 28%;
+        margin-top: -27px;
+    }
+    .btn1 ul li a{
+        margin: 0px 0px;
+        padding: 28px 25px;
+        font-size: 30px;
+    }
+    .btn1 ul{
+        display: block;  
+    }
+    .btn{
+        margin: 60% 0px;
+    }
+}

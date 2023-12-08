@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://creenva.in/</loc>
+  <lastmod>2023-01-14T07:03:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://creenva.in/index.html</loc>
+  <lastmod>2023-01-14T07:03:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creenva.in/courses/B.tech/years/First%20year%20all%20Quantum.html</loc>
+  <lastmod>2023-01-12T20:49:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creenva.in/courses/B.tech/years/Second%20year%20all%20Quantum.html</loc>
+  <lastmod>2023-01-12T20:53:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creenva.in/courses/B.tech/years/Third%20year%20all%20Quantum.html</loc>
+  <lastmod>2023-01-12T20:54:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://creenva.in/courses/B.tech/B.Tech_HomePage.html</loc>
+  <lastmod>2023-01-12T20:53:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
